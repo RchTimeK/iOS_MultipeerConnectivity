@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="RCGuideView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="guidebg" translatesAutoresizingMaskIntoConstraints="NO" id="XX8-9H-gup">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                </imageView>
+                <switch opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AvS-QZ-Nsa">
+                    <rect key="frame" x="276" y="100" width="51" height="31"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="49" id="3t3-XL-Wpz"/>
+                        <constraint firstAttribute="height" constant="31" id="4Ah-RY-FOW"/>
+                    </constraints>
+                </switch>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="附近右箭头" translatesAutoresizingMaskIntoConstraints="NO" id="Y0J-O4-49R">
+                    <rect key="frame" x="280" y="151" width="40" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="Bwx-n1-ehC"/>
+                        <constraint firstAttribute="height" constant="60" id="x2N-ZP-TMe"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请打开上面的按钮，以便搜索附近的蓝牙设备和被附近的蓝牙设备搜索到！" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ITi-FB-lG3">
+                    <rect key="frame" x="182" y="221" width="236" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="236" id="aaP-10-iXx"/>
+                        <constraint firstAttribute="height" constant="80" id="fJW-Oq-AJm"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bR6-Vk-UJJ">
+                    <rect key="frame" x="224" y="311" width="153" height="61"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="61" id="Pcc-1g-pLa"/>
+                        <constraint firstAttribute="width" constant="153" id="wrz-LD-aFx"/>
+                    </constraints>
+                    <state key="normal" image="我知道了"/>
+                    <connections>
+                        <action selector="cancelBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="r9i-Yw-a03"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="ITi-FB-lG3" firstAttribute="top" secondItem="Y0J-O4-49R" secondAttribute="bottom" constant="10" id="3Cs-db-L0c"/>
+                <constraint firstAttribute="bottom" secondItem="XX8-9H-gup" secondAttribute="bottom" id="FSH-g9-fyO"/>
+                <constraint firstItem="AvS-QZ-Nsa" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="M3n-7P-BFE"/>
+                <constraint firstAttribute="trailing" secondItem="XX8-9H-gup" secondAttribute="trailing" id="PH8-kw-95k"/>
+                <constraint firstItem="Y0J-O4-49R" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="RJ2-6X-pka"/>
+                <constraint firstItem="bR6-Vk-UJJ" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="RwQ-0E-1nH"/>
+                <constraint firstItem="XX8-9H-gup" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="YVh-gP-cyF"/>
+                <constraint firstItem="Y0J-O4-49R" firstAttribute="top" secondItem="AvS-QZ-Nsa" secondAttribute="bottom" constant="20" id="e4B-8d-fXH"/>
+                <constraint firstItem="XX8-9H-gup" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="iEZ-Ye-DhR"/>
+                <constraint firstItem="ITi-FB-lG3" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="lGk-ar-r8J"/>
+                <constraint firstItem="AvS-QZ-Nsa" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="100" id="prM-pj-jV4"/>
+                <constraint firstItem="bR6-Vk-UJJ" firstAttribute="top" secondItem="ITi-FB-lG3" secondAttribute="bottom" constant="10" id="ttb-g4-Zuc"/>
+            </constraints>
+            <point key="canvasLocation" x="301" y="332"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="guidebg" width="400" height="200"/>
+        <image name="我知道了" width="153" height="61"/>
+        <image name="附近右箭头" width="55" height="65"/>
+    </resources>
+</document>

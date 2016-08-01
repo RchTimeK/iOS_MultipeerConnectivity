@@ -1,0 +1,23 @@
+
+//
+//  RC.pch
+//  RCMultipeerConnectivity
+//
+//  Created by RongCheng on 16/7/29.
+//  Copyright © 2016年 RongCheng. All rights reserved.
+//
+
+#ifndef RC_pch
+#define RC_pch
+#import "UIColor+Extension.h"
+#import "RCNavigationController.h"
+#import "RCModel.h"
+#import "RCTableViewCell.h"
+
+#define  HEIGHT [UIScreen mainScreen].bounds.size.height
+#define  WIDTH  [UIScreen mainScreen].bounds.size.width
+#define WINDOW  [UIApplication sharedApplication].keyWindow
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* RC_pch */

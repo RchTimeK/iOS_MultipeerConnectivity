@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>content</key>
+		<string>小明，你知道历史上最便宜的妓女是谁么？</string>
+		<key>icon</key>
+		<string>icon2.jpg</string>
+	</dict>
+	<dict>
+		<key>content</key>
+		<string>依山尽</string>
+		<key>icon</key>
+		<string>icon1.jpg</string>
+	</dict>
+	<dict>
+		<key>content</key>
+		<string>你出去！</string>
+		<key>icon</key>
+		<string>icon2.jpg</string>
+	</dict>
+	<dict>
+		<key>content</key>
+		<string>老师，那你知道世界上最抠门的嫖客是谁么？</string>
+		<key>icon</key>
+		<string>icon1.jpg</string>
+	</dict>
+	<dict>
+		<key>content</key>
+		<string>谁？</string>
+		<key>icon</key>
+		<string>icon2.jpg</string>
+	</dict>
+	<dict>
+		<key>content</key>
+		<string>衡水</string>
+		<key>icon</key>
+		<string>icon1.jpg</string>
+	</dict>
+	<dict>
+		<key>content</key>
+		<string>你滚出去！</string>
+		<key>icon</key>
+		<string>icon2.jpg</string>
+	</dict>
+</array>
+</plist>

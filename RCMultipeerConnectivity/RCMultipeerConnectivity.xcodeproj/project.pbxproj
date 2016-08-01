@@ -15,6 +15,18 @@
 		5108940F1D4A50D9001FFC1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5108940D1D4A50D9001FFC1E /* LaunchScreen.storyboard */; };
 		5108941A1D4A50D9001FFC1E /* RCMultipeerConnectivityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 510894191D4A50D9001FFC1E /* RCMultipeerConnectivityTests.m */; };
 		510894251D4A50D9001FFC1E /* RCMultipeerConnectivityUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 510894241D4A50D9001FFC1E /* RCMultipeerConnectivityUITests.m */; };
+		5121CFEC1D4ED22F00982B02 /* RCImgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5121CFEA1D4ED22F00982B02 /* RCImgViewController.m */; };
+		5121CFED1D4ED22F00982B02 /* RCImgViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5121CFEB1D4ED22F00982B02 /* RCImgViewController.xib */; };
+		51D508191D4AE42500CBEB67 /* RCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D508181D4AE42500CBEB67 /* RCNavigationController.m */; };
+		51D5081D1D4AE46B00CBEB67 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D5081C1D4AE46B00CBEB67 /* UIColor+Extension.m */; };
+		51D508211D4AE7F400CBEB67 /* RCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D508201D4AE7F400CBEB67 /* RCTableViewController.m */; };
+		51D508281D4AE9AA00CBEB67 /* RCChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D508271D4AE9AA00CBEB67 /* RCChatViewController.m */; };
+		51D508301D4AEA6800CBEB67 /* RCJokeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D5082F1D4AEA6800CBEB67 /* RCJokeViewController.m */; };
+		51D508331D4AEC5C00CBEB67 /* RCModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D508321D4AEC5C00CBEB67 /* RCModel.m */; };
+		51D508361D4AED0300CBEB67 /* RCTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D508351D4AED0300CBEB67 /* RCTableViewCell.m */; };
+		51D5083A1D4AF4EF00CBEB67 /* joke.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51D508391D4AF4EF00CBEB67 /* joke.plist */; };
+		51D5083D1D4B1E4000CBEB67 /* RCGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D5083C1D4B1E4000CBEB67 /* RCGuideView.m */; };
+		51D5083F1D4B1E6000CBEB67 /* RCGuideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51D5083E1D4B1E6000CBEB67 /* RCGuideView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +63,28 @@
 		510894201D4A50D9001FFC1E /* RCMultipeerConnectivityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RCMultipeerConnectivityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		510894241D4A50D9001FFC1E /* RCMultipeerConnectivityUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCMultipeerConnectivityUITests.m; sourceTree = "<group>"; };
 		510894261D4A50D9001FFC1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5121CFE91D4ED22F00982B02 /* RCImgViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCImgViewController.h; sourceTree = "<group>"; };
+		5121CFEA1D4ED22F00982B02 /* RCImgViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCImgViewController.m; sourceTree = "<group>"; };
+		5121CFEB1D4ED22F00982B02 /* RCImgViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RCImgViewController.xib; sourceTree = "<group>"; };
+		51D508171D4AE42500CBEB67 /* RCNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCNavigationController.h; sourceTree = "<group>"; };
+		51D508181D4AE42500CBEB67 /* RCNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCNavigationController.m; sourceTree = "<group>"; };
+		51D5081B1D4AE46B00CBEB67 /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		51D5081C1D4AE46B00CBEB67 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		51D5081E1D4AE4B300CBEB67 /* RC.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RC.pch; sourceTree = "<group>"; };
+		51D5081F1D4AE7F400CBEB67 /* RCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCTableViewController.h; path = RCMultipeerConnectivity/Controllers/RCTableViewController.h; sourceTree = SOURCE_ROOT; };
+		51D508201D4AE7F400CBEB67 /* RCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCTableViewController.m; path = RCMultipeerConnectivity/Controllers/RCTableViewController.m; sourceTree = SOURCE_ROOT; };
+		51D508261D4AE9AA00CBEB67 /* RCChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCChatViewController.h; sourceTree = "<group>"; };
+		51D508271D4AE9AA00CBEB67 /* RCChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCChatViewController.m; sourceTree = "<group>"; };
+		51D5082E1D4AEA6800CBEB67 /* RCJokeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCJokeViewController.h; sourceTree = "<group>"; };
+		51D5082F1D4AEA6800CBEB67 /* RCJokeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCJokeViewController.m; sourceTree = "<group>"; };
+		51D508311D4AEC5C00CBEB67 /* RCModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCModel.h; sourceTree = "<group>"; };
+		51D508321D4AEC5C00CBEB67 /* RCModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCModel.m; sourceTree = "<group>"; };
+		51D508341D4AED0300CBEB67 /* RCTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTableViewCell.h; sourceTree = "<group>"; };
+		51D508351D4AED0300CBEB67 /* RCTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTableViewCell.m; sourceTree = "<group>"; };
+		51D508391D4AF4EF00CBEB67 /* joke.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = joke.plist; sourceTree = "<group>"; };
+		51D5083B1D4B1E4000CBEB67 /* RCGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCGuideView.h; sourceTree = "<group>"; };
+		51D5083C1D4B1E4000CBEB67 /* RCGuideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCGuideView.m; sourceTree = "<group>"; };
+		51D5083E1D4B1E6000CBEB67 /* RCGuideView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RCGuideView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +135,10 @@
 		510893FE1D4A50D9001FFC1E /* RCMultipeerConnectivity */ = {
 			isa = PBXGroup;
 			children = (
+				51D508161D4AE2DF00CBEB67 /* Controllers */,
+				51D508151D4AE2CA00CBEB67 /* View */,
+				51D508141D4AE2AA00CBEB67 /* Tool */,
+				51D508131D4AE29800CBEB67 /* Model */,
 				510894021D4A50D9001FFC1E /* AppDelegate.h */,
 				510894031D4A50D9001FFC1E /* AppDelegate.m */,
 				510894051D4A50D9001FFC1E /* ViewController.h */,
@@ -110,6 +148,8 @@
 				5108940D1D4A50D9001FFC1E /* LaunchScreen.storyboard */,
 				510894101D4A50D9001FFC1E /* Info.plist */,
 				510893FF1D4A50D9001FFC1E /* Supporting Files */,
+				51D5081E1D4AE4B300CBEB67 /* RC.pch */,
+				51D508391D4AF4EF00CBEB67 /* joke.plist */,
 			);
 			path = RCMultipeerConnectivity;
 			sourceTree = "<group>";
@@ -138,6 +178,94 @@
 				510894261D4A50D9001FFC1E /* Info.plist */,
 			);
 			path = RCMultipeerConnectivityUITests;
+			sourceTree = "<group>";
+		};
+		51D508131D4AE29800CBEB67 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				51D508311D4AEC5C00CBEB67 /* RCModel.h */,
+				51D508321D4AEC5C00CBEB67 /* RCModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		51D508141D4AE2AA00CBEB67 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				51D5081A1D4AE46B00CBEB67 /* UIColor */,
+				51D508171D4AE42500CBEB67 /* RCNavigationController.h */,
+				51D508181D4AE42500CBEB67 /* RCNavigationController.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		51D508151D4AE2CA00CBEB67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				51D508341D4AED0300CBEB67 /* RCTableViewCell.h */,
+				51D508351D4AED0300CBEB67 /* RCTableViewCell.m */,
+				51D5083B1D4B1E4000CBEB67 /* RCGuideView.h */,
+				51D5083C1D4B1E4000CBEB67 /* RCGuideView.m */,
+				51D5083E1D4B1E6000CBEB67 /* RCGuideView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		51D508161D4AE2DF00CBEB67 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				51D508221D4AE91700CBEB67 /* RCTableViewController */,
+				51D508251D4AE98800CBEB67 /* Chat */,
+				51D5082A1D4AE9E600CBEB67 /* SendImage */,
+				51D508291D4AE9C900CBEB67 /* Joke */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		51D5081A1D4AE46B00CBEB67 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				51D5081B1D4AE46B00CBEB67 /* UIColor+Extension.h */,
+				51D5081C1D4AE46B00CBEB67 /* UIColor+Extension.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		51D508221D4AE91700CBEB67 /* RCTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				51D5081F1D4AE7F400CBEB67 /* RCTableViewController.h */,
+				51D508201D4AE7F400CBEB67 /* RCTableViewController.m */,
+			);
+			path = RCTableViewController;
+			sourceTree = "<group>";
+		};
+		51D508251D4AE98800CBEB67 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				51D508261D4AE9AA00CBEB67 /* RCChatViewController.h */,
+				51D508271D4AE9AA00CBEB67 /* RCChatViewController.m */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		51D508291D4AE9C900CBEB67 /* Joke */ = {
+			isa = PBXGroup;
+			children = (
+				51D5082E1D4AEA6800CBEB67 /* RCJokeViewController.h */,
+				51D5082F1D4AEA6800CBEB67 /* RCJokeViewController.m */,
+			);
+			path = Joke;
+			sourceTree = "<group>";
+		};
+		51D5082A1D4AE9E600CBEB67 /* SendImage */ = {
+			isa = PBXGroup;
+			children = (
+				5121CFE91D4ED22F00982B02 /* RCImgViewController.h */,
+				5121CFEA1D4ED22F00982B02 /* RCImgViewController.m */,
+				5121CFEB1D4ED22F00982B02 /* RCImgViewController.xib */,
+			);
+			path = SendImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,11 +330,13 @@
 		510893F41D4A50D9001FFC1E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = RC;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = RongCheng;
 				TargetAttributes = {
 					510893FB1D4A50D9001FFC1E = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 34D922C2LE;
 					};
 					510894141D4A50D9001FFC1E = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -244,8 +374,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5108940F1D4A50D9001FFC1E /* LaunchScreen.storyboard in Resources */,
+				5121CFED1D4ED22F00982B02 /* RCImgViewController.xib in Resources */,
 				5108940C1D4A50D9001FFC1E /* Assets.xcassets in Resources */,
+				51D5083A1D4AF4EF00CBEB67 /* joke.plist in Resources */,
 				5108940A1D4A50D9001FFC1E /* Main.storyboard in Resources */,
+				51D5083F1D4B1E6000CBEB67 /* RCGuideView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,8 +403,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51D508191D4AE42500CBEB67 /* RCNavigationController.m in Sources */,
+				5121CFEC1D4ED22F00982B02 /* RCImgViewController.m in Sources */,
+				51D508331D4AEC5C00CBEB67 /* RCModel.m in Sources */,
 				510894071D4A50D9001FFC1E /* ViewController.m in Sources */,
+				51D5081D1D4AE46B00CBEB67 /* UIColor+Extension.m in Sources */,
+				51D508301D4AEA6800CBEB67 /* RCJokeViewController.m in Sources */,
+				51D5083D1D4B1E4000CBEB67 /* RCGuideView.m in Sources */,
 				510894041D4A50D9001FFC1E /* AppDelegate.m in Sources */,
+				51D508361D4AED0300CBEB67 /* RCTableViewCell.m in Sources */,
+				51D508281D4AE9AA00CBEB67 /* RCChatViewController.m in Sources */,
+				51D508211D4AE7F400CBEB67 /* RCTableViewController.m in Sources */,
 				510894011D4A50D9001FFC1E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,10 +557,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RCMultipeerConnectivity/RC.pch";
 				INFOPLIST_FILE = RCMultipeerConnectivity/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JiYue.com.RCMultipeerConnectivity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -426,10 +572,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RCMultipeerConnectivity/RC.pch";
 				INFOPLIST_FILE = RCMultipeerConnectivity/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JiYue.com.RCMultipeerConnectivity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -498,6 +648,7 @@
 				5108942B1D4A50D9001FFC1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5108942C1D4A50D9001FFC1E /* Build configuration list for PBXNativeTarget "RCMultipeerConnectivityTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +657,7 @@
 				5108942E1D4A50D9001FFC1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5108942F1D4A50D9001FFC1E /* Build configuration list for PBXNativeTarget "RCMultipeerConnectivityUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +666,7 @@
 				510894311D4A50D9001FFC1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
