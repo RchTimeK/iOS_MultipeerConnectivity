@@ -158,12 +158,12 @@
     
 }
 -(void)loadDataArray {
-   
+    
     NSString *path = [[NSBundle mainBundle] pathForResource:@"joke" ofType:@"plist"];
     NSArray * array = [NSMutableArray arrayWithContentsOfFile:path];
     
-    for (NSDictionary * dic in array){
-        
+    for (int i = 7 ; i<12; i++){
+        NSDictionary * dic = array[i];
         RCModel * model =[RCModel  modelWithDic:dic ];
         [self.dataArray addObject:model];
     }

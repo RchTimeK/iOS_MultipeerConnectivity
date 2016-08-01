@@ -44,5 +44,35 @@
 		<key>icon</key>
 		<string>icon2.jpg</string>
 	</dict>
+	<dict>
+		<key>content</key>
+		<string>你知道东莞为什么被严打吗？</string>
+		<key>icon</key>
+		<string>icon2.jpg</string>
+	</dict>
+	<dict>
+		<key>content</key>
+		<string>为什么？</string>
+		<key>icon</key>
+		<string>icon1.jpg</string>
+	</dict>
+	<dict>
+		<key>content</key>
+		<string>前段时间那边禽流感很严重，国务院让把鸡都杀了。</string>
+		<key>icon</key>
+		<string>icon2.jpg</string>
+	</dict>
+	<dict>
+		<key>content</key>
+		<string>这有半毛钱关系</string>
+		<key>icon</key>
+		<string>icon1.jpg</string>
+	</dict>
+	<dict>
+		<key>content</key>
+		<string>发到农业部的文件不小心发给公安部了</string>
+		<key>icon</key>
+		<string>icon2.jpg</string>
+	</dict>
 </array>
 </plist>
