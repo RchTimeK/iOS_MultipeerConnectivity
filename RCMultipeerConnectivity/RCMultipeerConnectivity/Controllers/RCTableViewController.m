@@ -22,6 +22,15 @@
     [super viewDidLoad];
      self.navigationItem.title=@"RCBLE";
      [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:RC_TableCell];
+    [self.tableView  setSeparatorStyle:UITableViewCellSeparatorStyleNone];
+    UILabel * lab=[[UILabel alloc]initWithFrame:CGRectMake(0, HEIGHT-49-64, WIDTH, 49)];
+    lab.numberOfLines=0;
+    lab.backgroundColor=[UIColor colorWithHexString:@"#3a3a3a"];
+    lab.text=@"有兴趣的可以将音频，视频等一些流数据集成进去，下次会集成基于CoreBluetooth.framework的框架";
+    lab.font=[UIFont systemFontOfSize:14];
+    lab.textAlignment=NSTextAlignmentCenter;
+    lab.textColor=[UIColor whiteColor];
+    [self.tableView addSubview:lab];
 }
 
 - (void)didReceiveMemoryWarning {
